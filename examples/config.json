@@ -1,0 +1,10 @@
+{
+    "test" : {
+        "distance" : 2,
+        "comment" : "This entry matches things that, according to Levenshtein distancing, need max. 3 changes to match 'test'"
+    },
+    "onlyregex" : {
+        "pattern": "test",
+        "comment" : "This entry matches the regex /test/. Since distance isn't used here, 'onlyregex' is only used to give a name which will be used for output"
+    }
+}

@@ -1,0 +1,13 @@
+name: ralike
+version: 0.1.0
+
+authors:
+  - kyu <kyunal@outlook.de>
+
+targets:
+  ralike:
+    main: src/ralike.cr
+
+crystal: 0.35.1
+
+license: MIT
